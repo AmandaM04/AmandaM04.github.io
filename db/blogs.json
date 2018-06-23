@@ -1,0 +1,94 @@
+{
+	"blogs": [
+        {
+			"id": "blog1",
+			"title": "First Two Weeks",
+			"date": "02/27/2018",
+			"post": "The first two weeks have been very challenging. We have covered a ton of material all across the board.<br>HTML has some confusing parts. I have learned that you must pay very close attention to your spelling, opening and closing tags, and basically the format and specificity of just about everything.<br>CSS is one Big headache. There is really No One way to explain this! I learned that the things at the bottom have more importance than the things at the top of your file. You can override formats with an asterisk. This is an extremely tiresome process.<br>GIT and GITHUB can be extremely confusing. This has been the hardest part of the first two weeks. I am not sure at this point if I am coming or going. GIT has quite a bit of steps and they must be followed in a specific way. It is okay and actually really important to be cautious and paranoid when interacting with GIT. You will want to check your location and status quite often. It is also Important to catch your mistake if any early in the process."
+		},
+		{
+			"id": "blog2",
+			"title": "3rd Week",
+			"date": "03/06/2018",
+			"post": "We are in the 3rd week here at NSS and I am feeling like I have been thrown under a bus. I am starting to feel a little better about the GIT and GITHUB. It took repetition and I feel confident that it has sunk in for the most part! I now understand that you can commit your changes without pushing them every time.<br>We started JavaScript this week and I do not understand the concepts of this language period! I had a hard time with it in our Tree House Pre-work and I do not feel any smarter at this point."
+		},
+		{
+			"id": "blog3",
+			"title": "4th Week",
+			"date": "03/13/2018",
+			"post": "Welcome to the 4th week at NSS! At this point in my journey I am starting to feel a little better about this career choice. I have to admit that I was starting to wonder if I was able to do this.<br>I am pretty comfortable with using Github now. There are some things about branches that still throw me off. I am not doubting myself with the process of this anymore.<br>JavaScript OH JavaScript... I understand the syntax and reasoning behind this language. I can break down into steps what it is that I need to accomplish but I get stuck when it comes to writing the code. At this point, I have to say that I am still wondering if I will Ever get it thoroughly? I am better understanding the var and why we need it. I understand the formation of the for loop. We have learned a little bit about the forEach loop that sums up the formation of the for loop. This still scares me a bit since I just learned how to cope with the basic for loop. I can see just a tiny bit of light at the end of the tunnel though!"
+		},
+		{
+			"id": "blog4",
+			"title": "5th Week",
+			"date": "03/20/2018",
+			"post": "Last week we worked as a group to build a band site. We learned how to interact with each other through projects on Github. This can be a tad bit confusing. We ran into trouble when pulling code back down to the master. Our information wasn't the same sometimes. I learned about how if working in a group and sharing 1 JavaScript file, you can run into a problem with all of your functions trying to run in sync. We had to create an if statement to check if the div id was not null than to perform the function. This week we are learning about ES6, DOM Interaction, and Markdown. Markdown has multiple languages or flavor that you can use depending on your program. ES6 makes JavaScript easier to read, write, and understand. "
+		},
+		{
+			"id": "blog5",
+			"title": "6th Week",
+			"date": "03/27/2018",
+			"post": "This week we went over ES6, DOM Interaction,  and Markdown. I missed this week due to being sick. By going over the presentation, I am seeing ES6 is changing the way we write our functions. We are able to use the words const and let instead of var. Const will hold data that doesn't change. Let holds data that has the ability to change(ex. let i = 0 will change each time you go through the for loop). DOM Interaction is being able to access different parts of your data tree. This allows you to target the parents and children in the DOM. Markdown is a language used to help with understand and better writing your Read Me files"
+		},
+		{
+			"id": "blog6",
+			"title": "7th Week",
+			"date": "04/3/2018",
+			"post": "This week we learned about XHR request. I am still not understanding material from week 6 to the point where I feel comfortable actually writing the code. The event listeners are a major struggle at this point. DO NOT MISS CLASS!! XHR in the beginning didn't seem to complicated until we had to make multiple in a single file. "
+		},
+		{
+			"id": "blog7",
+			"title": "8th Week",
+			"date": "04/9/2018",
+			"post": "This week we are able to use Bootstrap. I am interested in seeing what this has to offer. It appears to be quite some help with CSS and Javascript. We created some pretty neat things without extreme effort. YAY! I am starting to finally understand the XHR and event listeners. I am still not able to fully write them out without having to go back a reference. I will get there!"
+		},
+		{
+			"id": "blog8",
+			"title": "9th Week",
+			"date": "04/17/2018",
+			"post": "Task Runners and Browserify.... Task Runners are helpful! I like automation but it is definitely something you have to get used to. Browserify can cause major headaches and stress. The formating rules and the fact that it won't run unless it is correct, is annoying. I do like the fact that things are broken up and not all on the same page. This helps me understand things better bc what goes with what is on a single page. Very organized."
+    },
+    {
+			"id": "blog9",
+			"title": "10th Week",
+			"date": "04/24/2018",
+			"post": "We are still working with Task Runners and Browserify this week. I am really liking the fact that things are separated and organized. I am better understanding what I have had issues with. This helps me with understand exactly what the functions are doing. I like the fact that Browserify shows you the mistakes that you have before you do all of this extra coding just to find out somewhere there is an error. I have to work on my requires and exports a little more because it is still a little confusing. "
+    },
+    {
+			"id": "blog10",
+			"title": "11th Week",
+			"date": "05/1/2018",
+			"post": "This week we worked in a group repo creating an chatty app. This app took quite a bit of planning. Over all I think the hardest part was the delete button for each line along with the clear button. I ran into some problems with keeping everyone's master on the same level. I better understand this process now going through all of the struggles that I encountered."
+    },
+    {
+			"id": "blog11",
+			"title": "12th Week",
+			"date": "05/15/2018",
+			"post": "We finally learning JQuery. This is making life a lot easier. I find that I still want to do things the old way because that is what I am used to at this point. JQuery makes getting things by their element easier. I understand the verbiage a little better than plain JavaScript. Thanks for picking me back up!"
+    },
+    {
+			"id": "blog12",
+			"title": "14th Week",
+			"date": "05/22/2018",
+			"post": "This week we returned from break working with Promises. I like the way they wrap the AJAX calls within 1 function. I am having trouble calling things that worked with the old JQuery and JavaScript way. I think this way will be better once I get the whole Promise.resolve."
+    },
+    {
+			"id": "blog13",
+			"title": "15th Week",
+			"date": "05/29/2018",
+      "post": "This week we have pulled information from API's instead of json files. This seems a little tricky but I think will be easier to deal with after more practice. We have also been working with Promises. I like these calls except with the resolve. I do not understand this part at the moment."
+    },
+    {
+			"id": "blog14",
+			"title": "16th Week",
+			"date": "06/5/2018",
+      "post": "We are learning Firebase at this moment. I am not sure how I feel about it. I understand how helpful it is when pulling info from an API but I haven't been able to use it as much as I would like or need to."
+    },
+    {
+			"id": "blog15",
+			"title": "17th Week",
+			"date": "06/12/2018",
+      "post": "Firebase Authorization is something we learned this week. It doesn't seem to be hard to do. I think it will take more time actually putting this into effect to see how I feel."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"projects": [
+		{
+			"id": "project1",
+			"title": "Cool Project",
+			"imageUrl": "http://gotoflashgames.com/files/file/033.jpg",
+			"description": "This is the best project",
+			"githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+		},
+		{
+			"id": "project2",
+			"title": "Cool Project",
+			"imageUrl": "http://www.awesomelycute.com/gallery/2015/11/animals-ready-for-winter-20.jpg",
+			"description": "This is the best project",
+			"githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+		},
+		{
+			"id": "project3",
+			"title": "Cool Project",
+			"imageUrl": "https://medium.com/@serenablanks01/about-the-pomsky-pomeranian-husky-mix-2abd17b71872",
+			"description": "This is the best project",
+			"githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+		},
+		{
+			"id": "project4",
+			"title": "Cool Project",
+			"imageUrl": "http://gotoflashgames.com/files/file/033.jpg",
+			"description": "This is the best project",
+			"githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+		},
+		{
+			"id": "project5",
+			"title": "Cool Project",
+			"imageUrl": "http://gotoflashgames.com/files/file/033.jpg",
+			"description": "This is the best project",
+			"githubUrl": "https://github.com/nss-evening-cohort-7/jsArrays"
+		}
+	]
+}
