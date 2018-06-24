@@ -1,13 +1,14 @@
-const {createProjectCards,} = require('./projects');
+const { createProjectCards, } = require('./projects');
+const {getAllProjects, } = require('./projectFirebaseApi');
 
 const getAllProjectsEvent = () => {
-  projectFirebaseApi.getAllProjects()
-  .then((projectsArray) => {
-    createProjectCards(projectsArray)
-  })
-  .catch((error) => {
-    console.error(error.message);
-  });
+  getAllProjects()
+    .then((projectsArray) => {
+      createProjectCards(projectsArray);
+    })
+    .catch((error) => {
+      console.error(error.message);
+    });
 };
 
 module.exports = {

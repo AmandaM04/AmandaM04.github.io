@@ -1,5 +1,5 @@
-const {getAllBlogsEvent,} = require('../blogEvents');
-const {getAllProjectsEvent,} = require('../projectEvents');
+const { getAllBlogsEvent, } = require('./Blogs/blogEvents');
+const { getAllProjectsEvent, } = require('./Projects/projectEvents');
 
 const initializer = () => {
   getAllBlogsEvent();
