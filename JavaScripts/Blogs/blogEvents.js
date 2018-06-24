@@ -1,13 +1,14 @@
-const {blogStringBuilder,} = require('./blogs');
+const { blogStringBuilder, } = require('./blogs');
+const { getAllBlogs, } = require('./blogFirebaseApi');
 
 const getAllBlogsEvent = () => {
-  blogFirebaseApi.getAllBlogs()
-  .then((blogsArray) => {
-    blogStringBuilder(blogsArray)
-  })
-  .catch((error) => {
-    console.error(error.message);
-  });
+  getAllBlogs()
+    .then((blogsArray) => {
+      blogStringBuilder(blogsArray);
+    })
+    .catch((error) => {
+      console.error(error.message);
+    });
 };
 
 module.exports = {
