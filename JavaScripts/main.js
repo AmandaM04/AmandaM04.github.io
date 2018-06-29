@@ -1,3 +1,5 @@
-const {initializer,} = require('./events');
+const { retrieveKeys, } = require('./apiKeys');
+// const { initializer, } = require('./events');
 
-initializer();
+retrieveKeys();
+// initializer();
