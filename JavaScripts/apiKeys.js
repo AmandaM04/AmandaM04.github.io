@@ -3,9 +3,9 @@ const { getAllBlogsEvent, getAllProjectsEvent, } = require('./events');
 
 const apiKeys = () => {
   return new Promise((resolve, reject) => {
-    $.ajax('./db/apiKeys.json')
+    $.ajax('../db/apiKeys.json')
       .done((data) => {
-        resolve(data.apiKeys);
+        resolve(data.firebaseKeys);
       })
       .fail((err) => {
         reject(err);
@@ -16,8 +16,8 @@ const apiKeys = () => {
 const retrieveKeys = () => {
   apiKeys()
     .then((results) => {
-      setConfig(results.firebase);
-      firebase.initializeApp(results.firebase);
+      setConfig(results);
+      firebase.initializeApp(results);
       getAllBlogsEvent();
       getAllProjectsEvent();
     })

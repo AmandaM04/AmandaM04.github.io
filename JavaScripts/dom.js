@@ -1,17 +1,18 @@
-const blogString = (blogsArray, whereToPrint) => {
+const blogString = (blogsArray) => {
+  console.log('blogsArray', blogsArray);
   blogsArray.forEach((blog) => {
     let domString = '';
     domString += `<div class='blog'>`;
-    domString += `<h3>${blog.id}</h3>`;
+    // domString += `<h3>${blog.id}</h3>`;
     domString += `<h2>${blog.title}</h2>`;
     domString += `<h3>${blog.date}</h3>`;
     domString += `<p>${blog.post}</p>`;
     domString += `</div>`;
-    printToDom(whereToPrint, domString);
+    printToDom('#blog-holder', domString);
   });
 };
 
-const projectString = (projectsArray, whereToPrint) => {
+const projectString = (projectsArray) => {
   console.log('projectsArray', projectsArray);
   projectsArray.forEach((project) => {
     let domStrang = '';
@@ -22,12 +23,12 @@ const projectString = (projectsArray, whereToPrint) => {
     domStrang += `<p>${project.description}</p>`;
     domStrang += `<p>${project.githubUrl}</p>`;
     domStrang += `</div>`;
-    printToDom(whereToPrint, domStrang);
+    printToDom('#project-holder', domStrang);
   });
 };
 
-const printToDom = (whereToPrint, stringz) => {
-  $(`#${whereToPrint}`).html(stringz);
+const printToDom = (id, string) => {
+  $(id).append(string);
 };
 
 module.exports = {
