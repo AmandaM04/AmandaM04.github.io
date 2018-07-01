@@ -89,6 +89,18 @@
 			"title": "17th Week",
 			"date": "06/12/2018",
       "post": "Firebase Authorization is something we learned this week. It doesn't seem to be hard to do. I think it will take more time actually putting this into effect to see how I feel."
+    },
+    {
+			"id": "blog16",
+			"title": "18th Week",
+			"date": "06/26/2018",
+      "post": "SASS!!! Makes CSS easier. Variables allow you to easily change fonts and colors site wide at any given point."
+    },
+    {
+			"id": "blog17",
+			"title": "19th Week",
+			"date": "07/3/2018",
+      "post": "React: Simplifying Javascript with components! The setup for this framework can be time consuming. You have to watch out for capitalization as component names and files inside the component need to start with a capital letter. You can use Typechecking With PropTypes which warns you if a number or string is supposed to be used. You can only refer to the state of this inside the js file for app."
 		}
 	]
 }
