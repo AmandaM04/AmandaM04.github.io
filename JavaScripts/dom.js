@@ -13,22 +13,24 @@ const blogString = (blogsArray) => {
 };
 
 const projectString = (projectsArray) => {
-  console.log('projectsArray', projectsArray);
+  // console.log('projectsArray', projectsArray);
   projectsArray.forEach((project) => {
     let domStrang = '';
     domStrang += `<div class='projects'>`;
-    domStrang += `<h3>${project.id}</h3>`;
+    // domStrang += `<h3>${project.id}</h3>`;
     domStrang += `<h2>${project.title}</h2>`;
-    domStrang += `<p>${project.imageUrl}</p>`;
+    domStrang += `<p>${project.thumbnail}</p>`;
     domStrang += `<p>${project.description}</p>`;
-    domStrang += `<p>${project.githubUrl}</p>`;
+    domStrang += `<p>${project.technologiesUsed}</p>`;
+    domStrang += `<p>${project.url}</p>`;
+    domStrang += `<p>${project.github}</p>`;
     domStrang += `</div>`;
-    printToDom('#project-holder', domStrang);
   });
+  printToDom('#project-holder', domStrang);
 };
 
 const printToDom = (id, string) => {
-  $(id).append(string);
+  $(id).html(string);
 };
 
 module.exports = {

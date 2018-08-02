@@ -1,0 +1,47 @@
+{
+	"tch01": {
+		"techName": "Bootstrap",
+		"techImg": "./images/technology/Bootstrap.png"
+	},
+	"tech02": {
+		"techName": "Browserify",
+		"techImg": "./images/technology/Browserify.png"
+	},
+	"tech03": {
+		"techName": "CSS",
+		"techImg": "./images/technology/CSS.png"
+	},
+	"tech04": {
+		"techName": "Firebase",
+		"techImg": "./images/technology/Firebase.png"
+	},
+	"tech05": {
+		"techName": "Github",
+		"techImg": "./images/technology/Github.png"
+	},
+	"tech06": {
+		"techName": "Grunt",
+		"techImg": "./images/technology/Grunt.png"
+	},
+	"tech07": {
+		"techName": "HTML5",
+		"techImg": "./images/technology/HTML5.png"
+	},
+	"tech08": {
+		"techName": "jQuery",
+		"techImg": "./images/technology/jQuery.gif"
+	},
+	"tech09": {
+		"techName": "JavaScript",
+		"techImg": "./images/technology/JS.png"
+	},
+	"tech10": {
+		"techName": "Markdown",
+		"techImg": "./images/technology/Markdown.png"
+	},
+	"tech11": {
+		"techName": "Sass",
+		"techImg": "./images/technology/Sass.png"
+	}
+
+}
