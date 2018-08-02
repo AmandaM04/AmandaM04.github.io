@@ -1,58 +1,24 @@
 {
-	"projects": [{
-			"project1": {
-				"title": "Totally Project 1",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+	"projects": [
+    {
+			  "id": "Project1",
+				"title": "Local Weather",
+				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Local-Weather/master/screenshots/Local%20Weather%20Auth.png",
+				"description": "Weather App that displays your current conditions along with the weather for the next 5 days.",
+				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Bootstrap, Firebase, Version Control with Github",
 				"available": true,
 				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
+				"github": "https://github.com/AmandaM04/Local-Weather"
 		},
 		{
-			"project2": {
-				"title": "Totally Project 1",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+        "id": "Project2",
+				"title": "Solar System",
+				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Solar-System/master/screenshots/Only%20Title%20Showing.png",
+				"description": "Solar System provides information about our planets. Each planet provides a detailed description and information about moons and gases.",
+				"technologiesUsed": "Javascript, XML Http Request and JSON, CSS",
 				"available": true,
 				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		},
-		{
-			"project3": {
-				"title": "Totally Project 1",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		},
-		{
-			"project4": {
-				"title": "Totally Project 1",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
-		},
-		{
-			"project5": {
-				"title": "Totally Project 1",
-				"thumbnail": "https://XXX.jpg",
-				"description": "This is a product and technical description for the project",
-				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
-				"available": true,
-				"url": "https://XXX.firebaseapp.com",
-				"github": "https://github.com/XXX"
-			}
+				"github": "https://github.com/AmandaM04/Solar-System"
 		}
 	]
 }
