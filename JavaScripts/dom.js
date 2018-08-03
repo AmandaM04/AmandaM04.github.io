@@ -19,11 +19,11 @@ const projectString = (projectsArray) => {
     domStrang += `<div class='projects'>`;
     // domStrang += `<h3>${project.id}</h3>`;
     domStrang += `<h2>${project.title}</h2>`;
-    domStrang += `<p>${project.thumbnail}</p>`;
-    domStrang += `<p>${project.description}</p>`;
-    domStrang += `<p>${project.technologiesUsed}</p>`;
-    domStrang += `<p>${project.url}</p>`;
-    domStrang += `<p>${project.github}</p>`;
+    domStrang += `<img class="screenshot" src="${project.thumbnail}">`;
+    domStrang += `<p>Description: ${project.description}</p>`;
+    domStrang += `<p>Technologies Used: ${project.technologiesUsed}</p>`;
+    domStrang += `<p>Url: ${project.url}</p>`;
+    domStrang += `<p>Github: ${project.github}</p>`;
     domStrang += `</div>`;
     ProjectsPrintToDom('#project-holder', domStrang);
   });
