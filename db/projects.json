@@ -3,7 +3,7 @@
     {
 			  "id": "Project1",
 				"title": "Local Weather",
-				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Local-Weather/master/screenshots/Local%20Weather%20Auth.png",
+				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Local-Weather/master/screenshots/Local%20Weather%20Auth.jpg",
 				"description": "Weather App that displays your current conditions along with the weather for the next 5 days.",
 				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Bootstrap, Firebase, Version Control with Github",
 				"available": true,
@@ -13,7 +13,7 @@
 		{
         "id": "Project2",
 				"title": "Solar System",
-				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Solar-System/master/screenshots/Only%20Title%20Showing.png",
+				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Solar-System/master/screenshots/Only%20Title%20Showing.jpg",
 				"description": "Solar System provides information about our planets. Each planet provides a detailed description and information about moons and gases.",
 				"technologiesUsed": "Javascript, XML Http Request and JSON, CSS",
 				"available": true,

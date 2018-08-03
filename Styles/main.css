@@ -40,7 +40,14 @@ ul {
   font-size: 1em;
 }
 
+.screenshot {
+  width: 175px;
+  height: 175px;
+}
 
+.projects {
+  text-align: center;
+}
 
 img {
     width: 100px;
