@@ -21,10 +21,10 @@ const getAllProjectsEvent = () => {
     });
 };
 
-const initializer = () => {
-  getAllBlogsEvent();
-  getAllProjectsEvent();
-};
+// const initializer = () => {
+//   getAllBlogsEvent();
+//   getAllProjectsEvent();
+// };
 
 module.exports = {
   getAllBlogsEvent,

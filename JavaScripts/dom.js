@@ -8,12 +8,12 @@ const blogString = (blogsArray) => {
     domString += `<h3>${blog.date}</h3>`;
     domString += `<p>${blog.post}</p>`;
     domString += `</div>`;
-    printToDom('#blog-holder', domString);
+    blogPrintToDom('#blog-holder', domString);
   });
 };
 
 const projectString = (projectsArray) => {
-  // console.log('projectsArray', projectsArray);
+  console.log('projectsArray', projectsArray);
   projectsArray.forEach((project) => {
     let domStrang = '';
     domStrang += `<div class='projects'>`;
@@ -25,12 +25,16 @@ const projectString = (projectsArray) => {
     domStrang += `<p>${project.url}</p>`;
     domStrang += `<p>${project.github}</p>`;
     domStrang += `</div>`;
+    ProjectsPrintToDom('#project-holder', domStrang);
   });
-  printToDom('#project-holder', domStrang);
 };
 
-const printToDom = (id, string) => {
-  $(id).html(string);
+const blogPrintToDom = (id, string) => {
+  $(id).append(string);
+};
+
+const ProjectsPrintToDom = (id, string) => {
+  $(id).append(string);
 };
 
 module.exports = {
