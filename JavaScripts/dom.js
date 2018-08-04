@@ -4,8 +4,8 @@ const blogString = (blogsArray) => {
     let domString = '';
     domString += `<div class='blog'>`;
     // domString += `<h3>${blog.id}</h3>`;
-    domString += `<h2>${blog.title}</h2>`;
-    domString += `<h3>${blog.date}</h3>`;
+    domString += `<h3>${blog.title}</h3>`;
+    domString += `<h4>${blog.date}</h4>`;
     domString += `<p>${blog.post}</p>`;
     domString += `</div>`;
     blogPrintToDom('#blog-holder', domString);
@@ -22,8 +22,8 @@ const projectString = (projectsArray) => {
     domStrang += `<img class="screenshot" src="${project.thumbnail}">`;
     domStrang += `<p>Description: ${project.description}</p>`;
     domStrang += `<p>Technologies Used: ${project.technologiesUsed}</p>`;
-    domStrang += `<p>Url: ${project.url}</p>`;
-    domStrang += `<p>Github: ${project.github}</p>`;
+    domStrang += `<p>Url: <a href="${project.url}">Click here!</a></p>`;
+    domStrang += `<p>Github: <a href="${project.github}">Click here</a></p>`;
     domStrang += `</div>`;
     ProjectsPrintToDom('#project-holder', domStrang);
   });

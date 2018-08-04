@@ -3,6 +3,8 @@
 ## Description
 Created a site containing information about my work history, my contact information, my blog post through out my weeks at NSS, and my project files.
 
+Deployed site: `amandamitchelldev.com`
+
 ## Screenshot
 ![webpage]
 
