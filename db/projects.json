@@ -7,7 +7,7 @@
 				"description": "Weather App that displays your current conditions along with the weather for the next 5 days.",
 				"technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Bootstrap, Firebase, Version Control with Github",
 				"available": true,
-				"url": "https://XXX.firebaseapp.com",
+				"url": "https://local-weather-260b1.firebaseapp.com",
 				"github": "https://github.com/AmandaM04/Local-Weather"
 		},
 		{
@@ -17,7 +17,7 @@
 				"description": "Solar System provides information about our planets. Each planet provides a detailed description and information about moons and gases.",
 				"technologiesUsed": "Javascript, XML Http Request and JSON, CSS",
 				"available": true,
-				"url": "https://XXX.firebaseapp.com",
+				"url": "https://solar-system-f89c3.firebaseapp.com",
 				"github": "https://github.com/AmandaM04/Solar-System"
 		}
 	]
