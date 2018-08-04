@@ -40,6 +40,24 @@ ul {
   font-size: 1em;
 }
 
+.work {
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+
+.contacts {
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+}
+
+/* .blog {
+  text-align: center;
+  text-decoration: underline;
+} */
+
 .screenshot {
   width: 175px;
   height: 175px;
@@ -59,7 +77,7 @@ section {
 
 body {
     margin: 0px;
-    background-color: rgb(233, 249, 243);
+    background-color: rgb(245, 249, 247);
 }
 
 footer {

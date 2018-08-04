@@ -1,7 +1,17 @@
 {
 	"projects": [
     {
-			  "id": "Project1",
+      "id": "Project1",
+      "title": "Feels App",
+      "thumbnail": "",
+      "description": "Collect temperatures, medications, and symptoms for your children. This information can be shown to your doctor.",
+      "technologiesUsed": "React, Axios, Task Automation, Bootstrap, Firebase, Version Control with Github, JSX",
+      "available": true,
+      "url": "https://feelsapp-5a1b6.firebaseapp.com",
+      "github": "https://github.com/AmandaM04/feels-app"
+  },
+    {
+			  "id": "Project2",
 				"title": "Local Weather",
 				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Local-Weather/master/screenshots/Local%20Weather%20Auth.jpg",
 				"description": "Weather App that displays your current conditions along with the weather for the next 5 days.",
@@ -11,7 +21,7 @@
 				"github": "https://github.com/AmandaM04/Local-Weather"
 		},
 		{
-        "id": "Project2",
+        "id": "Project3",
 				"title": "Solar System",
 				"thumbnail": "https://raw.githubusercontent.com/AmandaM04/Solar-System/master/screenshots/Only%20Title%20Showing.jpg",
 				"description": "Solar System provides information about our planets. Each planet provides a detailed description and information about moons and gases.",
