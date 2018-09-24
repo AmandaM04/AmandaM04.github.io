@@ -1,9 +1,7 @@
 
 .nav-bar {
     background-color: rgb(80, 80, 80);
-    /*position: fixed; Set the navbar to fixed position*/
-    /* top: 0; Position the navbar at the top of the page */
-    width: 100%; /*Full width*/
+    width: 100%;
     padding: 15px;
     height: 40px;
 }
@@ -14,8 +12,6 @@
 }
 
 .nav-bar a {
-
-    /* display: block; */
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
@@ -53,11 +49,6 @@ ul {
   padding: 0px 5px 5px 5px;
 }
 
-/* .blog {
-  text-align: center;
-  text-decoration: underline;
-} */
-
 .screenshot {
   width: 175px;
   height: 175px;
@@ -65,6 +56,30 @@ ul {
 
 .projects {
   text-align: center;
+}
+
+.separator {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  border-bottom: 3px solid #7A7A7A;
+}
+
+.pic {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 600px;
+  margin: 25px;
+  border: 2px solid black;
+  border-radius: 250px;
+  float: right;
+}
+
+.about-text {
+  margin: 75px 10px;
 }
 
 img {
