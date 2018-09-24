@@ -58,6 +58,10 @@ ul {
   text-align: center;
 }
 
+.blog-holder, .blog {
+  margin: 15px;
+}
+
 .separator {
   position: relative;
   display: inline-block;
@@ -72,14 +76,15 @@ ul {
   display: block;
   width: 400px;
   height: 600px;
-  margin: 25px;
+  margin: 20px;
   border: 2px solid black;
   border-radius: 250px;
   float: right;
 }
 
 .about-text {
-  margin: 75px 10px;
+  margin: 75px 90px 75px 10px;
+  font-size: large;
 }
 
 img {
