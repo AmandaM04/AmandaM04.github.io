@@ -110,6 +110,11 @@ img {
     width: 100px;
 }
 
+.screenshot {
+  width: 40px;
+  height: 40px;
+}
+
 section {
     padding: 20px;
 }

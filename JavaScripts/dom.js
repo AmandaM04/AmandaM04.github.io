@@ -1,5 +1,5 @@
 const blogString = (blogsArray) => {
-  console.log('blogsArray', blogsArray);
+  // console.log('blogsArray', blogsArray);
   blogsArray.forEach((blog) => {
     let domString = '';
     domString += `<div class='blog'>`;
@@ -12,7 +12,7 @@ const blogString = (blogsArray) => {
 };
 
 const projectString = (projectsArray) => {
-  console.log('projectsArray', projectsArray);
+  // console.log('projectsArray', projectsArray);
   projectsArray.forEach((project) => {
     let domStrang = '';
     domStrang += `<div class='projects'>`;
