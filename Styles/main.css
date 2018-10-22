@@ -1,62 +1,6 @@
-
-.nav-bar {
-    background-color: rgb(80, 80, 80);
-    /*position: fixed; Set the navbar to fixed position*/
-    /* top: 0; Position the navbar at the top of the page */
-    width: 100%; /*Full width*/
-    padding: 15px;
-    height: 40px;
+body {
+  margin: 0px;
 }
-
-.menu {
-    float: right;
-    margin-right: 15px;
-}
-
-.nav-bar a {
-
-    /* display: block; */
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-/* Change background on mouse-over */
-.nav-bar a:hover {
-    background: #ddd;
-    color: black;
-}
-
-
-.title {
-    color: white;
-    float: left;
-}
-
-ul {
-  color: black;
-  font-weight: bold;
-  font-size: 1em;
-}
-
-.work {
-  border: 1px solid black;
-  text-align: center;
-  margin: 5px 5px 5px 5px;
-}
-
-.contacts {
-  border: 1px solid black;
-  text-align: center;
-  margin: 5px 5px 5px 5px;
-  padding: 0px 5px 5px 5px;
-}
-
-/* .blog {
-  text-align: center;
-  text-decoration: underline;
-} */
 
 .screenshot {
   width: 175px;
@@ -64,20 +8,81 @@ ul {
 }
 
 .projects {
+  display: block;
   text-align: center;
 }
 
-img {
-    width: 100px;
+.separator {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  border-bottom: 3px solid #7A7A7A;
 }
+
+.btn {
+  background-color: rgb(39, 78, 116);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(0, 64, 255);
+  color: white;
+}
+
+.sidebar {
+  height: 600px;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(230, 230, 226, 0.5), rgba(165, 165, 254, 0.5)),
+  url("../images/ProfessionalPhoto.jpg");
+  min-height: 100%;
+}
+/* .pic2 {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 250px;
+  float: right;
+} */
+
+.about-text {
+  margin: 75px 90px 75px 10px;
+  font-size: large;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon:hover {
+  opacity: .65;
+}
+
 
 section {
     padding: 20px;
-}
-
-body {
-    margin: 0px;
-    background-color: rgb(245, 249, 247);
 }
 
 footer {
