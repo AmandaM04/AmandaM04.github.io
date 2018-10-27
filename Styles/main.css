@@ -1,5 +1,58 @@
 body {
   margin: 0px;
+  background-color: #f1f1f1!important;
+}
+
+.main {
+  margin-left: 40%;
+  padding: 12px 24px!important;
+  transition: margin-left .4s;
+}
+
+.header-container {
+  padding: 128px 16px;
+}
+
+.portfolio-content {
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photos {
+  margin: 0 -16px;
+  padding: 0 8px;
+}
+
+.picsgrid {
+  display: block;
+  padding: 0 8px;
+  width: 49.99999%;
+  float: left;
+}
+
+.photos:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-container {
+  color: #757575!important;
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+  text-align: justify!important;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin: -24px;
+  color: #000!important;
+  font-size: 24px!important;
 }
 
 .screenshot {
@@ -41,7 +94,7 @@ body {
 }
 
 .sidebar {
-  height: 600px;
+  height: 100%;
   position: fixed !important;
   z-index: 1;
   overflow: auto;

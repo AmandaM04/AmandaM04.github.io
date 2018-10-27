@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="./Styles/main.css">
   <title>Amanda Mitchell Personal Site</title>
 </head>
@@ -13,49 +14,94 @@
   <div class="navbar-wrapper">
     <div class="container">
       <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <div class="container">
 
+<!-- Open Navbar on small device view -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Amanda Mitchell</a>
           </div>
+<!-- End Open Navbar on small device view -->
 
-
+<!-- Top Navbar with Links -->
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <!-- <li class="active"><a href="#">Home</a></li> -->
+              <a class="navbar-brand" href="#">Amanda Mitchell</a>
               <li class="active"><a href="./HTML/experienceContact.html">Experience & Contact</a></li>
               <li class="active"><a href="./HTML/projects.html">Projects</a></li>
-              <!-- <li class="active"><a href="./HTML/blogs.html">Blogs</a></li> -->
             </ul>
           </div>
-
-        </div>
+<!-- End of Top Navbar with Links -->
       </nav>
     </div>
   </div>
 
+<!-- Sidebar with image -->
   <nav class="sidebar" style="width:40%">
-      <div class="bgimg">
-      </div>
-    </nav>
-
-  <div class="about-container">
-
-    <div class="about-container">
-      <span style="float:right;width: 60%;">
-        <p class="about-text"> <span style="text-decoration: underline; font-weight: bold;">A
-            Little Bit About Myself</span>: I am a mother to a
-          very comical and smart 3 year old! She is my Motivation to be the best I can be! With ten years experience in creating and maintaining e-commerce sites, branding and social media for Middle Tennessee companies using established frameworks, I decided to advance my knowledge and formally pursue a professional career as a software developer which led me to join Nashville Software School. This has been amazing yet challenging and I am ever so Thankful for this change in my life and career!
-        </p>
-      </span>
+    <div class="bgimg">
     </div>
-  </div>
+  </nav>
+
+<!-- Page Content -->
+<div class="main" style="margin-left:40%">
+
+  <!-- Header -->
+  <header class="header-container text-center" style="padding:128px 16px" id="home">
+      <h1 class="name"><b>Amanda Mitchell</b></h1>
+      <p>Full Stack Web Developer and Graphic Designer</p>
+    </header>
+
+  <!-- Portfolio Section -->
+  <div class="portfolio-content" id="portfolio">
+      <!-- <h2 class="w3-text-grey">My Portfolio</h2>
+      <hr class="w3-opacity"> -->
+
+      <!-- Grid for photos -->
+      <div class="photos">
+        <div class="picsgrid">
+          <img src="./images/alexmarion.png" style="width:100%; margin-bottom:16px">
+          <img src="./images/cpr.jpg" style="width:100%; margin-bottom:16px">
+          <img src="./images/rrrth-logo.png" style="width:100%; margin-bottom:16px">
+          <img src="./images/Floral P's 2.jpg" style="width:100%; margin-bottom:16px">
+          <img src="./images/P&P Live Logo 2.jpg" style="width:100%; margin-bottom:16px">
+        </div>
+
+        <div class="picsgrid">
+          <img src="./images/MMR_LOGO.png" style="width:100%; margin-bottom:16px">
+          <img src="./images/Home Screen.png" style="width:100%; margin-bottom:16px">
+          <img src="./images/txtaboutit-logo.png" style="width:100%; margin-bottom:16px">
+          <img src="./images/AZ.jpg" style="width:100%; margin-bottom:16px">
+          <img src="./images/PP Logo.jpg" style="width:100%; margin-bottom:16px">
+        </div>
+      <!-- End photo grid -->
+
+      </div>
+    <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+  <div class="about-container" id="about">
+      <h2>About</h2>
+      <!-- <hr class="w3-opacity"> -->
+      <p>I am a mother to a very comical and smart 3 year old! She is my Motivation to be the best I can be! With ten years experience in
+          creating and maintaining e-commerce sites, branding and social media for Middle Tennessee companies using
+          established frameworks, I decided to advance my knowledge and formally pursue a professional career as a
+          software developer which led me to join Nashville Software School. This has been amazing yet challenging and
+          I am ever so Thankful for this change in my life and career!</p>
+      </div>
+    <!-- End About Section -->
+
+    <!-- Footer -->
+  <footer class="footer text-center">
+    &copy; 2018 Amanda Mitchell
+    <!-- End footer -->
+    </footer>
+    </div>
+<!-- END PAGE CONTENT -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -63,7 +109,6 @@
     crossorigin="anonymous"></script>
   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
   <script src="dist/app.js"></script>
-  <footer>&copy; 2018 Amanda Mitchell</footer>
 </body>
 
 </html>
